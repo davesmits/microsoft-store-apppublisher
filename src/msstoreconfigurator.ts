@@ -53,7 +53,7 @@ export class MSStoreCLIConfigurator {
       versionString = `download/${this.version}`
     }
 
-    const downloadURL = `https://github.com/microsoft/msstore-cli/releases/${versionString}/MSStoreCLI-${platform}-${process.arch}${extension}`
+    const downloadURL = `https://github.com/davesmits/msstore-cli/releases/${versionString}/MSStoreCLI-${platform}-${process.arch}${extension}`
 
     pipeline.debug(`Downloading tool from ${downloadURL}`)
     let downloadPath: string | null = null
